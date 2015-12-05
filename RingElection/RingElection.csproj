@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5EAB4740-80DA-4C79-8D02-EA263346E1EF}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RingElection</RootNamespace>
+    <AssemblyName>RingElection</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>RingElection.RingElectionMain</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AllTheWayComplexity.cs" />
+    <Compile Include="AlternateStepsComplexity.cs" />
+    <Compile Include="ControlledDistanceComplexity.cs" />
+    <Compile Include="RingElectionMain.cs" />
+    <Compile Include="StagesComplexity.cs" />
+    <Compile Include="StagesBestCase.cs" />
+    <Compile Include="Common\Notification.cs" />
+    <Compile Include="Common\Direction.cs" />
+    <Compile Include="Common\ElectionMessage.cs" />
+    <Compile Include="Algorithm\AlternateSteps.cs" />
+    <Compile Include="Algorithm\AsFarAsBidirectional.cs" />
+    <Compile Include="ElectionEvaluation.cs" />
+    <Compile Include="Common\INode.cs" />
+    <Compile Include="Common\NodeState.cs" />
+    <Compile Include="Algorithm\AsFarAs.cs" />
+    <Compile Include="Algorithm\ElectionBase.cs" />
+    <Compile Include="Algorithm\Stages.cs" />
+    <Compile Include="Algorithm\ControlledDistance.cs" />
+    <Compile Include="Util\CsvExporter.cs" />
+    <Compile Include="Util\IEnumerableExtensions.cs" />
+    <Compile Include="Algorithm\AllTheWay.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Common\Ring.cs" />
+    <Compile Include="Util\RandomUniqueList.cs" />
+    <Compile Include="Util\ComparisonResult.cs" />
+    <Compile Include="AsFarAsBestCase.cs" />
+    <Compile Include="AsFarAsWorstCase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
