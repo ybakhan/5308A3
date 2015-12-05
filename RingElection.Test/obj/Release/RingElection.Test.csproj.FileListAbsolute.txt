@@ -1,0 +1,14 @@
+E:\7304650_A3\src\RingElection\RingElection.Test\bin\Release\RingElection.Test.dll
+E:\7304650_A3\src\RingElection\RingElection.Test\bin\Release\RingElection.Test.pdb
+E:\7304650_A3\src\RingElection\RingElection.Test\bin\Release\RingElection.exe
+E:\7304650_A3\src\RingElection\RingElection.Test\bin\Release\RingElection.pdb
+E:\7304650_A3\src\RingElection\RingElection.Test\obj\Release\RingElection.Test.csprojResolveAssemblyReference.cache
+E:\7304650_A3\src\RingElection\RingElection.Test\obj\Release\RingElection.Test.dll
+E:\7304650_A3\src\RingElection\RingElection.Test\obj\Release\RingElection.Test.pdb
+L:\7304650_A3\src\RingElection\RingElection.Test\bin\Release\RingElection.Test.dll
+L:\7304650_A3\src\RingElection\RingElection.Test\bin\Release\RingElection.Test.pdb
+L:\7304650_A3\src\RingElection\RingElection.Test\bin\Release\RingElection.exe
+L:\7304650_A3\src\RingElection\RingElection.Test\bin\Release\RingElection.pdb
+L:\7304650_A3\src\RingElection\RingElection.Test\obj\Release\RingElection.Test.csprojResolveAssemblyReference.cache
+L:\7304650_A3\src\RingElection\RingElection.Test\obj\Release\RingElection.Test.dll
+L:\7304650_A3\src\RingElection\RingElection.Test\obj\Release\RingElection.Test.pdb

@@ -1,0 +1,7 @@
+E:\7304650_A3\src\RingElection\RingElection.Test\bin\Debug\RingElection.Test.dll
+E:\7304650_A3\src\RingElection\RingElection.Test\bin\Debug\RingElection.Test.pdb
+E:\7304650_A3\src\RingElection\RingElection.Test\bin\Debug\RingElection.exe
+E:\7304650_A3\src\RingElection\RingElection.Test\bin\Debug\RingElection.pdb
+E:\7304650_A3\src\RingElection\RingElection.Test\obj\Debug\RingElection.Test.csprojResolveAssemblyReference.cache
+E:\7304650_A3\src\RingElection\RingElection.Test\obj\Debug\RingElection.Test.dll
+E:\7304650_A3\src\RingElection\RingElection.Test\obj\Debug\RingElection.Test.pdb
